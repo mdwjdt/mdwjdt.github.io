@@ -1,0 +1,40 @@
+A {
+    COLOR: #0000ff;
+    FONT-FAMILY: "宋体";
+    FONT-SIZE: 10pt;
+    TEXT-DECORATION: none
+}
+A:hover {
+    COLOR: #ff0000;
+    FONT-FAMILY: "宋体";
+    FONT-SIZE: 10pt;
+    TEXT-DECORATION: underline
+}
+A:active {
+    COLOR: #ff00ff;
+    FONT-FAMILY: "宋体";
+    FONT-SIZE: 10pt;
+    TEXT-DECORATION: underline
+}
+BODY {
+	FONT-FAMILY: "宋体";
+	FONT-SIZE: 10pt;
+	LINE-HEIGHT: 120%;
+	 background-image:url("g.gif");
+	/*background-image: url(jonahome_bible.gif);/*
+}
+TD {
+    FONT-FAMILY: "宋体";
+    FONT-SIZE: 10pt;
+    LINE-HEIGHT: 120%
+}
+P {
+    FONT-FAMILY: "宋体";
+    FONT-SIZE: 10pt;
+    LINE-HEIGHT: 120%
+}
+FONT {
+    FONT-FAMILY: "宋体";
+    FONT-SIZE: 10pt;
+    LINE-HEIGHT: 120%
+}

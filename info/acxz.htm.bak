@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<link rel="stylesheet" type="text/css" href="1.css">
+<title>打包下载及说明</title>
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico" />
+</head>
+<body>
+<div class="icontainer">
+ <p align="center"><strong>一、史公著作中按节编号查询及关键词查询的方法</strong></p>
+ <p align="left">已经将史公著作<strong>中文版和中、英、拉多版本对照版</strong>集成为chm格式文件，可下载它们的压缩包到电脑中，解开，运行1688esCN.chm或1688es.chm文件，既能通过节编号来查询对应的内容，也能查询关键字：</p>
+ <p><a href="1688esCNchm.rar">1688esCNchm.rar(中文版)</a></p>
+  <p><a href="1688eschm.rar">1688eschm.rar(中英拉对照版)</a></p>
+ <p><a href="1688es.mp4">使用演示视频</a></p>
+ <p><strong>二、可以将本网站下载到电脑中，在电脑中调用</strong></p>
+ <p align="left">首先下载本网站所有文件的压缩包，在电脑中解开，用浏览器打开文件夹中的index.htm文件即可使用。</p>
+    <p align="center">　　 <strong>中文版：</strong>（<a href="http://1688es.cn/info/1688esCN.rar">1688esCN.rar，仅中文译文）</a>）</p>
+	<p align="center">　　 <strong>中英拉合参：</strong>（<a href="http://1688es.cn/info/1688es.rar">1688es.rar）</a>）</p>
+</div>
+</body>
+</html>
+

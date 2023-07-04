@@ -1,0 +1,335 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>圣经中的对应学-Swedenborg's works</title>
+<link rel="stylesheet" href="info/ac0.css">
+<link rel="Shortcut Icon" type="image/x-icon" href="info/favicon.ico">
+</head>
+
+<body>
+<div class="ccon">
+				<div id="bt"> <h1 align="center">圣经中的对应学</h1></div>
+				<div id="message1"><input type="text" id="iv-book" value="著作：属天的奥秘（AC）"> </div>
+				<div id="message"><input type="text" id="iv-show" placeholder="点选的节号"></div>
+					   
+		<div id="verse-choice">
+				<div id="show-panel">
+					<ul id="iv-wrap"><li><div id="1" class="mynum" onClick="mynumclick(this.id)">1</div></li><li><div id="2" class="mynum" onClick="mynumclick(this.id)">2</div></li><li><div id="3" class="mynum" onClick="mynumclick(this.id)">3</div></li><li><div id="4" class="mynum" onClick="mynumclick(this.id)">4</div></li><li><div id="5" class="mynum" onClick="mynumclick(this.id)">5</div></li><li><div id="6" class="mynum" onClick="mynumclick(this.id)">6</div></li><li><div id="7" class="mynum" onClick="mynumclick(this.id)">7</div></li><li><div id="8" class="mynum" onClick="mynumclick(this.id)">8</div></li><li><div id="9" class="mynum" onClick="mynumclick(this.id)">9</div></li><li><div id="0" class="mynum" onClick="mynumclick(this.id)">0</div></li><li style="color: #990033;"><div class="myli-ls" onClick="myOkclick()">!确定</div><div class="myli-lx" onClick="myOkclick()">查询该节号</div></li><li style="color: #990033;"><div class="myli-ls" onClick="mydel()">回退</div><div class="myli-lx" onClick="mydel()">删除节号</div></li><li style="color: #990033;"><div id="a0" class="myli-ls" onClick="myclear()">清除</div><div id="b0" class="myli-lx" onClick="myclear()">全部节号</div></li><li><div id="a12" class="myli-ls" onClick="myACclick()">属天</div><div id="b12" class="myli-lx" onClick="myACclick()">的奥秘AC</div></li><li><div id="a13" class="myli-ls" onClick="myTCRclick()">真实</div><div id="b13" class="myli-lx" onClick="myTCRclick()">的基督教TCR</div></li><li><div id="a14" class="myli-ls" onClick="myHHclick()">天堂</div><div id="b14" class="myli-lx" onClick="myHHclick()">与地狱HH</div></li><li><div id="a15" class="myli-ls" onClick="myDLWclick()">圣爱</div><div id="b15" class="myli-lx" onClick="myDLWclick()">与圣智DLW</div></li><li><div id="a16" class="myli-ls" onClick="myCLclick()">婚姻</div><div id="b16" class="myli-lx" onClick="myCLclick()">之爱CL</div></li><li><div id="a17" class="myli-ls" onClick="myDPclick()">圣治</div><div id="b17" class="myli-lx" onClick="myDPclick()">(天意)DP</div></li><li><div id="a18" class="myli-ls" onClick="myLJclick()">最后</div><div id="b18" class="myli-lx" onClick="myLJclick()">的审判LJ</div></li><li><div id="a23" class="myli-ls" onClick="myCLJclick()">最后</div><div id="b23" class="myli-lx" onClick="myCLJclick()">的审判(续)CLJ</div></li><li><div id="a19" class="myli-ls" onClick="myLORDclick()">主篇</div><div id="b19" class="myli-lx" onClick="myLORDclick()">新教义之主篇LORD</div></li><li><div id="a20" class="myli-ls" onClick="mySSclick()">圣经篇</div><div id="b20" class="myli-lx" onClick="mySSclick()">新教义之圣经篇SS</div></li><li><div id="a21" class="myli-ls" onClick="myFAITHclick()">信仰篇</div><div id="b21" class="myli-lx" onClick="myFAITHclick()">新教义之信仰篇FAITH</div></li><li><div id="a22" class="myli-ls" onClick="myLIFEclick()">生活篇</div><div id="b22" class="myli-lx" onClick="myLIFEclick()">新教义之生活篇LIFE</div></li><li><div id="a24" class="myli-ls" onClick="myNJHDclick()">属天的</div><div id="b24" class="myli-lx" onClick="myNJHDclick()">教义NJHD</div></li><li><div id="a25" class="myli-ls" onClick="myISBclick()">灵魂与</div><div id="b25" class="myli-lx" onClick="myISBclick()">身体的相互作用ISB</div></li><li><div id="a26" class="myli-ls" onClick="myWHclick()">白马</div><div id="b26" class="myli-lx" onClick="myWHclick()">启示录中的白马WH</div></li><li><div id="a27" class="myli-ls" onClick="myARclick()">揭秘</div><div id="b27" class="myli-lx" onClick="myARclick()">启示录AR</div></li><li><div id="a28" class="myli-ls" onClick="myEUclick()">宇宙</div><div id="b28" class="myli-lx" onClick="myEUclick()">星球EU</div></li><li><div id="a29" class="myli-ls" onClick="myBEclick()">新教会</div><div id="b29" class="myli-lx" onClick="myBEclick()">教义纲要BE</div><li><div id="a30" class="myli-ls" onClick="myWORDclick()">圣经的</div><div id="b30" class="myli-lx" onClick="myWORDclick()">字义与灵义WORD</div></li><li><div id="a31" class="myli-ls" onClick="mySEclick()">灵界</div><div id="b31" class="myli-lx" onClick="mySEclick()">经历SE</div></li><li><div id="a32" class="myli-ls" onClick="myAEclick()">启示录</div><div id="b32" class="myli-lx" onClick="myAEclick()">注释AE</div></li></ul>
+				</div>
+	  </div>
+
+
+	<div id="di" style="display: block;">
+		<div id="di1">
+		  
+		   
+		</div>
+	</div>
+ 
+</div>
+
+
+<script type="text/javascript">
+
+     function mynumclick(num)
+	 {
+	 	var mysuox = document.getElementById("iv-book").value;
+		var mysuox = mysuox.match(/（(\S*)）/)[1];
+/*		var mysuox = 'AC';*/
+		var myoldjh = document.getElementById("iv-show").value;
+	 	var mynewjh = document.getElementById("iv-show").value+num;
+		
+		switch (mysuox) {
+            case 'AC':
+                if (mynewjh > 10837){
+					alert("节编号超出范围！\n（此书共10837节）");
+				} else {
+				document.getElementById("iv-show").value = mynewjh;
+				}
+                break;
+            case 'TCR':
+                if (mynewjh > 853){
+					alert("节编号超出范围！\n（此书共853节）");
+				} else {
+				document.getElementById("iv-show").value = mynewjh;
+				}
+                break;
+            case 'HH':
+                if (mynewjh > 603){
+					alert("节编号超出范围！\n（此书共603节）");
+				} else {
+				document.getElementById("iv-show").value = mynewjh;
+				}                
+                break;
+			case 'DLW':
+                if (mynewjh > 432){
+					alert("节编号超出范围！\n（此书共432节）");
+				} else {
+				document.getElementById("iv-show").value = mynewjh;
+				}                
+                break;
+			case 'CL':
+                if (mynewjh > 535){
+					alert("节编号超出范围！\n（此书共535节）");
+				} else {
+				document.getElementById("iv-show").value = mynewjh;
+				}                
+                break;
+			case 'DP':
+                if (mynewjh > 340){
+					alert("节编号超出范围！\n（此书共340节）");
+				} else {
+				document.getElementById("iv-show").value = mynewjh;
+				}                
+                break;	
+			case 'LJ':
+                if (mynewjh > 74){
+					alert("节编号超出范围！\n（此书共74节）");
+				} else {
+				document.getElementById("iv-show").value = mynewjh;
+				}                
+                break;
+			case 'LORD':
+                if (mynewjh > 65){
+					alert("节编号超出范围！\n（此书共65节）");
+				} else {
+				document.getElementById("iv-show").value = mynewjh;
+				}                
+                break;	
+			case 'SS':
+                if (mynewjh > 118){
+					alert("节编号超出范围！\n（此书共118节）");
+				} else {
+				document.getElementById("iv-show").value = mynewjh;
+				}                
+                break;	
+			case 'FAITH':
+                if (mynewjh > 72){
+					alert("节编号超出范围！\n（此书共72节）");
+				} else {
+				document.getElementById("iv-show").value = mynewjh;
+				}                
+                break;
+			case 'LIFE':
+                if (mynewjh > 114){
+					alert("节编号超出范围！\n（此书共114节）");
+				} else {
+				document.getElementById("iv-show").value = mynewjh;
+				}                
+                break;
+			case 'CLJ':
+                if (mynewjh > 90){
+					alert("节编号超出范围！\n（此书共90节）");
+				} else {
+				document.getElementById("iv-show").value = mynewjh;
+				}                
+                break;	
+			case 'NJHD':
+                if (mynewjh > 325){
+					alert("节编号超出范围！\n（此书共325节）");
+				} else {
+				document.getElementById("iv-show").value = mynewjh;
+				}                
+                break;	
+			case 'ISB':
+                if (mynewjh > 20){
+					alert("节编号超出范围！\n（此书共20节）");
+				} else {
+				document.getElementById("iv-show").value = mynewjh;
+				}                
+                break;		
+			case 'WH':
+                if (mynewjh > 17){
+					alert("节编号超出范围！\n（此书共17节）");
+				} else {
+				document.getElementById("iv-show").value = mynewjh;
+				}                
+                break;	
+			case 'AR':
+                if (mynewjh > 962){
+					alert("节编号超出范围！\n（此书共962节）");
+				} else {
+				document.getElementById("iv-show").value = mynewjh;
+				}                
+                break;	
+			case 'EU':
+                if (mynewjh > 178){
+					alert("节编号超出范围！\n（此书共178节）");
+				} else {
+				document.getElementById("iv-show").value = mynewjh;
+				}                
+                break;	
+			case 'BE':
+                if (mynewjh > 120){
+					alert("节编号超出范围！\n（此书共120节）");
+				} else {
+				document.getElementById("iv-show").value = mynewjh;
+				}                
+                break;	
+			case 'WORD':
+                if (mynewjh > 26){
+					alert("节编号超出范围！\n（此书共26节）");
+				} else {
+				document.getElementById("iv-show").value = mynewjh;
+				}                
+                break;		
+			case 'SE':
+                if (mynewjh > 6110){
+					alert("节编号超出范围！\n（此书共6110节）");
+				} else {
+				document.getElementById("iv-show").value = mynewjh;
+				}                
+                break;	
+			case 'AE':
+                if (mynewjh > 1231){
+					alert("节编号超出范围！\n（此书共1231节）");
+				} else {
+				document.getElementById("iv-show").value = mynewjh;
+				}                
+                break;					
+        }
+		 /*document.getElementById("iv-show").focus();*/
+	 }
+
+  	function mydel()
+	{
+		var myjiehao = document.getElementById("iv-show").value;
+		myjiehao = myjiehao.substring(0,myjiehao.length-1);
+		document.getElementById("iv-show").value = myjiehao;
+		/*document.getElementById("iv-show").focus();*/
+	}
+	
+	
+	function myclear()
+	{
+		var myjiehao = document.getElementById("iv-show").value;
+		myjiehao = myjiehao.replace(/\d+/g,'');
+		document.getElementById("iv-show").value = myjiehao;
+		/*document.getElementById("iv-show").focus();*/
+	}
+	
+	function myACclick()
+	{
+		document.getElementById("iv-book").value = "著作：属天的奥秘（AC）";
+	}
+	
+		function myTCRclick()
+	{
+		document.getElementById("iv-book").value = "著作：真实的基督教（TCR）";
+	}
+	
+		function myHHclick()
+	{
+		document.getElementById("iv-book").value = "著作：天堂与地狱（HH）";
+	}
+			function myDLWclick()
+	{
+		document.getElementById("iv-book").value = "著作：圣爱与圣智（DLW）";
+	}
+	
+				function myCLclick()
+	{
+		document.getElementById("iv-book").value = "著作：婚姻之爱（CL）";
+	}
+
+		function myDPclick()
+	{
+		document.getElementById("iv-book").value = "著作：圣治(天意)（DP）";
+	}
+
+		function myLJclick()
+	{
+		document.getElementById("iv-book").value = "著作：最后的审判（LJ）";
+	}
+		
+		function myLORDclick()
+	{
+		document.getElementById("iv-book").value = "著作：新耶路撒冷教义之主篇（LORD）";
+	}	
+
+		function mySSclick()
+	{
+		document.getElementById("iv-book").value = "著作：新耶路撒冷教义之圣经篇（SS）";
+	}	
+		function myFAITHclick()
+	{
+		document.getElementById("iv-book").value = "著作：新耶路撒冷教义之信仰篇（FAITH）";
+	}		
+		function myLIFEclick()
+	{
+		document.getElementById("iv-book").value = "著作：新耶路撒冷教义之生活篇（LIFE）";
+	}	
+	
+		function myCLJclick()
+	{
+		document.getElementById("iv-book").value = "著作：最后的审判(续)（CLJ）";
+	}	
+		function myNJHDclick()
+	{
+		document.getElementById("iv-book").value = "著作：新耶路撒冷及其属天的教义（NJHD）";
+	}	
+		function myISBclick()
+	{
+		document.getElementById("iv-book").value = "著作：灵魂与身体的相互作用（ISB）";
+	}	
+		function myWHclick()
+	{
+		document.getElementById("iv-book").value = "著作：白马（WH）";
+	}	
+		function myARclick()
+	{
+		document.getElementById("iv-book").value = "著作：揭秘启示录（AR）";
+	}	
+		function myEUclick()
+	{
+		document.getElementById("iv-book").value = "著作：宇宙星球（EU）";
+	}	
+		function myBEclick()
+	{
+		document.getElementById("iv-book").value = "著作：新教会教义纲要（BE）";
+	}		
+		function myWORDclick()
+	{
+		document.getElementById("iv-book").value = "著作：圣经的字义与灵义（WORD）";
+	}		
+		function mySEclick()
+	{
+		document.getElementById("iv-book").value = "著作：灵界经历（SE）";
+	}		
+		function myAEclick()
+	{
+		document.getElementById("iv-book").value = "著作：启示录注释（AE）";
+	}		
+		
+
+		
+	function myOkclick()
+	 {
+		if (document.getElementById("iv-show").value !== ''){
+			var mysuox = document.getElementById("iv-book").value;
+			var mysuox = mysuox.match(/（(\S*)）/)[1];
+			var myjh = document.getElementById("iv-show").value;
+			var myurl;
+			/* if (mysuox == 'AC'){
+				myurl = myjh+'.htm';
+				} else {     20221122*/
+					mysuox = mysuox.toLowerCase();
+					myurl = mysuox+'/'+myjh+'.htm';
+					/*}   20221122*/
+			window.location.href=myurl;	
+			} else {
+				alert("未输入节号！！")
+			}
+	}
+	
+	
+	
+	function onLoad()
+	{
+    	/*document.getElementById("iv-show").focus();*/
+  	}
+</script>
+
+
+</body></html>

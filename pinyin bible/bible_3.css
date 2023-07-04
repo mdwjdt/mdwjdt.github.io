@@ -1,0 +1,30 @@
+A {
+    COLOR: #0000ff;
+    FONT-FAMILY: "宋体";
+    FONT-SIZE: 12pt;
+    TEXT-DECORATION: none
+}
+A:hover {
+    COLOR: #ff0000;
+    FONT-FAMILY: "宋体";
+    FONT-SIZE: 12pt;
+    TEXT-DECORATION: underline
+}
+A:active {
+    COLOR: #ff00ff;
+    FONT-FAMILY: "宋体";
+    FONT-SIZE: 12pt;
+    TEXT-DECORATION: underline
+}
+BODY {
+	FONT-FAMILY: "宋体";
+        background-image:url("b.jpg");
+	/*background-image: url(jonahome_bible.gif);/*
+}
+
+
+TD {
+    FONT-FAMILY: "宋体";
+    FONT-SIZE: 12pt;
+	LINE-HEIGHT: 150%;
+}

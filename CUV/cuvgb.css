@@ -1,0 +1,47 @@
+/* CSS Document */
+
+h2 {
+	font-weight: bold;
+	color: #0000ff;
+	text-align: center;
+}
+body{
+	font-size: small;
+	color: #000000;	
+	background-image: url(b.jpg);
+}
+td,th {
+	font-size: 17px;
+	color: #000000;	
+	LINE-HEIGHT: 150%
+}
+a:link {
+	color: #0000ff;
+}
+a:visited {
+	color: #0000ff;
+}
+a:hover {
+	color: #ff00ff;
+}
+a:active {
+	color: #ff0000;
+}
+.v {
+	font-size: smaller;
+	color: #008000;
+	vertical-align: text-top;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding: 0px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.chapter {
+	font-size: large;
+	color: #000000;
+	vertical-align: text-top;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}

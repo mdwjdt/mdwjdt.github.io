@@ -1,0 +1,105 @@
+html,body {font-family: Arial,Helvetica,sans-serif; font-size:20px; margin: 0px; overflow: hidden; height: 100%;}
+h1 {color:#FF8000; text-align:center;}
+h2 {color:blue; font-size:22px; text-align:center;font-family: SimHei,Arial,Helvetica,sans-serif;}
+p {margin-left: 10px;}
+a {font-size:11px; text-decoration: underline; color: #FF8000;}
+a:hover { text-decoration: underline; color: #ffffff; background-color:#0404B4;}
+
+.st1 td {font-family: SimHei,Arial,Helvetica,sans-serif; font-size:22px; white-space: nowrap; padding: 0px; text-align: center;}
+.st1 a {font-size:10px; text-decoration: none; color: #FF8000;}
+.st1 a:hover {color: #ffffff;background-color:#0404B4;}
+
+.st2 {font-size:18px; color: blue;
+    white-space: nowrap; padding: 4px; text-align: left;
+    vertical-align: top;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #006666;
+}
+.st3 {float:left; font-size:20px; padding: 2px;
+     text-align: left;white-space: nowrap; }
+.st4 {font-size:12px;}
+.sp1 {font-size:20px; padding: 2px; text-align: left; white-space: nowrap;}
+.hd1 {
+padding: 5px;
+color:blue; font-size:22px; text-align:center;
+font-family: SimHei,Arial,Helvetica,sans-serif;
+width:700px;
+}
+.bd {border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #006666;
+}
+ul#nav {
+list-style-type: none;
+margin: 0;
+padding: .5em 0;
+}
+
+ul#nav li a{
+display: block;
+width: 120px;
+color: #FFF;
+padding: 1px;
+background-color: #003B62;
+text-align: center;
+text-decoration: none;
+border: 2px outset;
+}
+
+ul#nav li a:hover{
+color: #FFF;
+background-color: #87AEC5;
+border: 2px inset;
+}
+
+ul#nav .back { float: left; }
+ul#nav .cont { float: right; }
+
+
+.btc {
+font-size:16px;
+width: 120px;
+color: #FFF;
+padding: 1px;
+background-color: #003B62;
+text-align: center;
+text-decoration: none;
+border: 2px outset;
+}
+
+
+
+
+
+
+#template_top {
+background-color:#c4d0f4;
+height:60px;
+padding: 1px;margin: 0px;
+border-bottom: 2px solid #003B62;
+}
+
+
+@media screen
+{#template_content{
+	margin: 0px;
+	padding: 5px;
+	position: absolute;
+	top : 61px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	overflow: auto;}
+}
+
+@media print
+{#template_content{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: auto;}
+}
